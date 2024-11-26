@@ -1,0 +1,48 @@
+2024-11-24 01:51:18,035 - system_health_test - INFO - Starting system health check for: /Users/temp/projects/ds-viewer-backend/data/bible.jsonl
+2024-11-24 01:51:18,035 - system_health_test - INFO - File existence check: /Users/temp/projects/ds-viewer-backend/data/bible.jsonl - Found
+2024-11-24 01:51:18,035 - system_health_test - INFO - File permissions check: /Users/temp/projects/ds-viewer-backend/data/bible.jsonl - Readable
+2024-11-24 01:51:18,035 - system_health_test - INFO - File format check: .jsonl - Supported
+2024-11-24 01:51:18,036 - system_health_test - INFO - Content validation successful: /Users/temp/projects/ds-viewer-backend/data/bible.jsonl
+2024-11-24 01:51:18,046 - system_health_test - INFO - API endpoint test: 400
+2024-11-24 01:51:18,046 - system_health_test - INFO - Health check completed
+2024-11-24 01:56:03,908 - system_health_test - INFO - Starting system health check for: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl
+2024-11-24 01:56:03,908 - system_health_test - INFO - File existence check: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl - Found
+2024-11-24 01:56:03,908 - system_health_test - INFO - File permissions check: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl - Readable
+2024-11-24 01:56:03,908 - system_health_test - INFO - File format check: .jsonl - Supported
+2024-11-24 01:56:03,909 - system_health_test - INFO - Content validation successful: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl
+2024-11-24 01:56:03,919 - system_health_test - INFO - API endpoint test: 400
+2024-11-24 01:56:03,919 - system_health_test - INFO - Health check completed
+2024-11-24 01:57:06,448 - system_health_test - INFO - Starting system health check for: /Users/temp/projects/ds-viewer-backend/data/train-00000-of-00001.parquet
+2024-11-24 01:57:06,448 - system_health_test - INFO - File existence check: /Users/temp/projects/ds-viewer-backend/data/train-00000-of-00001.parquet - Found
+2024-11-24 01:57:06,449 - system_health_test - INFO - File permissions check: /Users/temp/projects/ds-viewer-backend/data/train-00000-of-00001.parquet - Readable
+2024-11-24 01:57:06,449 - system_health_test - INFO - File format check: .parquet - Supported
+2024-11-24 01:57:06,449 - system_health_test - ERROR - Error validating file content: /Users/temp/projects/ds-viewer-backend/data/train-00000-of-00001.parquet
+Traceback (most recent call last):
+  File "/Users/temp/projects/ds-viewer-backend/tests/test_system_health.py", line 63, in validate_jsonl_content
+    first_line = f.readline().strip()
+                 ^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 7: invalid start byte
+2024-11-24 01:57:06,763 - system_health_test - INFO - API endpoint test: 400
+2024-11-24 01:57:06,763 - system_health_test - INFO - Health check completed
+2024-11-24 01:57:29,219 - system_health_test - INFO - Starting system health check for: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl
+2024-11-24 01:57:29,219 - system_health_test - INFO - File existence check: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl - Found
+2024-11-24 01:57:29,219 - system_health_test - INFO - File permissions check: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl - Readable
+2024-11-24 01:57:29,219 - system_health_test - INFO - File format check: .jsonl - Supported
+2024-11-24 01:57:29,221 - system_health_test - INFO - Content validation successful: /Users/temp/projects/ds-viewer-backend/data/noa.jsonl
+2024-11-24 01:57:29,231 - system_health_test - INFO - API endpoint test: 400
+2024-11-24 01:57:29,231 - system_health_test - INFO - Health check completed
+2024-11-24 01:57:40,982 - system_health_test - INFO - Starting system health check for: /Users/temp/projects/ds-viewer-backend/data/syn_hi.jsonl
+2024-11-24 01:57:40,982 - system_health_test - INFO - File existence check: /Users/temp/projects/ds-viewer-backend/data/syn_hi.jsonl - Found
+2024-11-24 01:57:40,982 - system_health_test - INFO - File permissions check: /Users/temp/projects/ds-viewer-backend/data/syn_hi.jsonl - Readable
+2024-11-24 01:57:40,982 - system_health_test - INFO - File format check: .jsonl - Supported
+2024-11-24 01:57:40,983 - system_health_test - INFO - Content validation successful: /Users/temp/projects/ds-viewer-backend/data/syn_hi.jsonl
+2024-11-24 01:57:40,992 - system_health_test - INFO - API endpoint test: 400
+2024-11-24 01:57:40,992 - system_health_test - INFO - Health check completed
+2024-11-24 01:57:53,637 - system_health_test - INFO - Starting system health check for: /Users/temp/projects/ds-viewer-backend/data/vpp.jsonl
+2024-11-24 01:57:53,637 - system_health_test - INFO - File existence check: /Users/temp/projects/ds-viewer-backend/data/vpp.jsonl - Found
+2024-11-24 01:57:53,637 - system_health_test - INFO - File permissions check: /Users/temp/projects/ds-viewer-backend/data/vpp.jsonl - Readable
+2024-11-24 01:57:53,637 - system_health_test - INFO - File format check: .jsonl - Supported
+2024-11-24 01:57:53,638 - system_health_test - INFO - Content validation successful: /Users/temp/projects/ds-viewer-backend/data/vpp.jsonl
+2024-11-24 01:57:53,648 - system_health_test - INFO - API endpoint test: 400
+2024-11-24 01:57:53,648 - system_health_test - INFO - Health check completed
